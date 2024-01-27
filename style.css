@@ -22,12 +22,14 @@ body{
   border-radius: 10px;
   background: #f7e6ba;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  align-items: center;
 }
 
 .cards{
    display: flex;
   height: 400px;
   width: 400px;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -140,6 +142,7 @@ body{
 .details .winner{
   /* display:none; */
   font-family: 'Sixtyfour',sans-serif;
+  font-size: small;
 }
 .details button{
   cursor: pointer;
